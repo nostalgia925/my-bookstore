@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/e.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    padding: 10px 5px 20px 10px;
+    width: 230px;
+    height: 60px;
+}
+
+.sidebar {
+    /*margin-top: 76px;*/
+    position: fixed;
+    width: 225px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #079992;
+    font-size: 22px;
+}
+
+.sidebar h2 {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sidebar a {
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.sidebar a:hover {
+    background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 3px;
+    /* margin-left: 20px; */
+    color: yellow;
+}
+
+input[ type="text"] {
+    border: solid;
+    height: 30px;
+    width: 300px;
+    border-color: #079992;
+    border-radius: 50px;
+    padding: 0px 10px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    margin-left: 230px;
+}
+
+input[ type="text"]:focus {
+    outline: none;
+}
+
+header {
+    background-color: #079992;
+    padding: 20px;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    padding-right: 5px;
+    float: right;
+}
+
+ul li {
+    font-size: 20px;
+    padding-right: 10px;
+    color: white;
+    display: inline-block;
+    padding-left: 25px;
+    margin-left: 20px;
+    transition: 0.4s;
+    padding: 3px;
+    height: 50px;
+    margin-top: 0;
+}
+
+ul li>a {
+    padding: 20px 5px;
+    height: 30px;
+}
+
+ul li:hover {
+    color: yellow;
+}
+
+ul li:hover a {
+    color: yellow;
+}
+
+
+/* 
+ul li>i:hover {
+    background-color: rgba(0, 0, 0, 0.247);
+    color: yellow;
+}
+
+ul li>a:hover {
+    background-color: rgba(0, 0, 0, 0.247);
+    color: yellow;
+} */
+
+.fa-search {
+    position: absolute;
+    left: 545px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.fa-home {
+    padding: 8px;
+}
+
+.fa-portrait {
+    padding: 8px;
+}
+
+.fa-sign-in-alt {
+    padding: 8px;
+}
+
+.fa-mobile-alt {
+    padding: 8px;
+}
+
+.fa-book-open {
+    padding: 10px;
+}
+
+.fa-book-reader {
+    padding: 10px;
+}
+
+.fa-cog {
+    padding: 10px;
+}
+
+.fa-language {
+    padding: 10px;
+}
+
+.fa-info-circle {
+    padding: 10px;
+}
+
+.fa-calendar {
+    padding: 10px;
+}
+
+.fa-book {
+    padding: 10px;
+}

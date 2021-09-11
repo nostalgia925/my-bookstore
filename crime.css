@@ -1,0 +1,29 @@
+    img {
+        margin-top: 30px;
+        margin-left: 30px;
+        /* width: 200px; */
+        height: 250px;
+        border: 1px solid #079992;
+        padding: 11px;
+        border-radius: 8px;
+        transition: all 0.3s;
+        /* border-color: black; */
+    }
+    
+    img:hover {
+        border: 5px solid #079992;
+    }
+    
+    .star {
+        color: yellow;
+        display: block;
+    }
+    
+    h1 {
+        text-transform: capitalize;
+        padding: 10px;
+        color: #fff;
+        background: #079992;
+        text-align: center;
+        border-radius: 10px;
+    }

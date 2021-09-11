@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background: #079992; */
+}
+
+.item {
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 15px;
+    border: 1px solid #079992;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #079992;
+    color: white;
+    box-shadow: 1px 3px 10px 4px #00000082;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 215px;
+    height: 250px;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-left: 15px;
+    width: 80%;
+    float: right;
+    color: black;
+}
+
+sup {
+    font-size: 40px;
+    font-style: italic;
+}
